@@ -1,0 +1,71 @@
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.3s ease-out;
+  }
+  .form-container.active {
+    /* Move it to the center of the screen */
+    bottom: 10%;
+    transition: bottom 0.3s ease-out;
+  }
+  h1 {
+    color: #1c4980;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1c4980;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #1c4980; /* Color for placeholders */
+}
+  
+  textarea {
+    height: 100px;
+  }
+  
+  #purpose {
+    width: 100%;
+  }
+  
+  #duration {
+    width: 100px;
+  }
+  .next{
+    background-color: #0073E6;
+    color: white;
+    width: 60%;
+  }

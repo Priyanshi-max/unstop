@@ -1,0 +1,16 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+
+}
+body{
+  background-color: #F6F8FA;
+}
+
+@media(max-width:800px){
+  .App{
+    flex-direction: column;
+  }
+}

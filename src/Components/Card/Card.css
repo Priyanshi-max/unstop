@@ -1,0 +1,83 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 19px;
+    background-color: #fff;
+    width:35%;
+    height: 209px;
+
+    margin: 16px;
+  }
+ .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .r_logo{
+    width: 30px;
+    height: 30px;
+    /* padding: 5px 10px 5px 319px; */
+    
+ }
+ .bottom{
+    display: flex;
+    flex-direction: row;
+ }
+ .border{
+    height: 16px;
+    border: 1px;
+    color: #DADCE0;
+ }
+ .bottom_r{
+    margin-left: 4px;
+    padding: 8px;
+ }
+ .last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .cardLeft{
+    display: flex;
+ }
+ .lastContent{
+    margin-right: 8px;
+ }
+ .cardRight{
+    display: flex;
+ }
+ .shareBtn{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 77px;
+    border: 1px solid #1C4980;
+    border-radius: 50px;
+    color: #1C4980;
+    background-color: transparent;
+    justify-content: space-around;
+ }
+ .profileIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #1C4980;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 15px;
+
+ }
+
+ @media(max-width:800px){
+   .card{
+      width: 80%;
+   }
+ }

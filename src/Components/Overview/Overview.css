@@ -1,0 +1,91 @@
+.overview {
+  margin-left: 20px;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+.overview #p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+}
+.assesment {
+  width: Fixed (1, 224px);
+  height: Hug (114px);
+  border-radius: 12px;
+  border: 1px solid #dadce0;
+  gap: 1px;
+  display: flex;
+  flex-direction: row;
+}
+.total {
+  width: Fixed (162px);
+  height: Fill (114px);
+  padding: 16px 20px 16px 20px;
+  gap: 16px;
+}
+.total p {
+  color: #1c4980;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.total div {
+  display: flex;
+  align-items: center;
+}
+.total span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  margin: 3px;
+  padding: 5px;
+}
+.candidate {
+    width: Fill (369px);
+padding: 16px 20px 16px 20px;
+gap: 16px;
+
+}
+.candidateContent{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.border{
+    width: 1px;
+    height: 40px;
+    background-color: #DADCE0;
+}
+.candidate div span{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+color: #05C165;
+}
+.candidateRight{
+    width: 95%;
+}
+.divider{
+    width: 1px;
+    height: 150px;
+    margin: 10px;
+    background-color: #DADCE0;
+}
+
+@media (max-width:800px) {
+  .container{
+    display: none;
+  }
+}
